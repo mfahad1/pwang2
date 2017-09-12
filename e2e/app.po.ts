@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class NgPwaPage {
+export class DemoAppPage {
   navigateTo() {
     return browser.get('/');
   }

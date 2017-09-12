@@ -1,10 +1,10 @@
-import { NgPwaPage } from './app.po';
+import { DemoAppPage } from './app.po';
 
-describe('ng-pwa App', () => {
-  let page: NgPwaPage;
+describe('demo-app App', () => {
+  let page: DemoAppPage;
 
   beforeEach(() => {
-    page = new NgPwaPage();
+    page = new DemoAppPage();
   });
 
   it('should display welcome message', () => {
