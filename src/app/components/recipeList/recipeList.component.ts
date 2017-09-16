@@ -1,6 +1,7 @@
 import { Component , Output , Input , EventEmitter } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'recipe-list',
   templateUrl: './recipe.html',
   styleUrls: ['./recipe.scss']
